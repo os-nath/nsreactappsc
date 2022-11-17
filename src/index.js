@@ -3,12 +3,12 @@ import ReactDOM from "react-dom/client";
 
 import App from "./App";
 import "./App.css";
-import Weather from "./Weather";
+// import Cities from "./Cities.js";
+import Climate from "./Climate.js";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
-    <Weather city="Perth" temperature={19} />
+    <Climate />
   </React.StrictMode>
 );
